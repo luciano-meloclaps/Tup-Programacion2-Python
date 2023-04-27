@@ -87,7 +87,5 @@ assert maximo_arbitrario(24, 9, 18, 30) == 30
 # IMPRIMIMOS
 print("EL MAXIMO ARBITRARIO DEL 1RO ES: ", maximo_arbitrario(5, 10, 1))
 print("EL MAXIMO ARBITRARIO DEL 2DO ES: ", maximo_arbitrario(4, 9, 18, 6))
-print("EL MAXIMO ARBITRARIO DEL 3RO ES: ",
-      maximo_arbitrario(24, 9, 18, 20, 30))
-
+print("EL MAXIMO ARBITRARIO DEL 3RO ES: ", maximo_arbitrario(24, 9, 18, 20, 30))
 # NO MODIFICAR - FIN

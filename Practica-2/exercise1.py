@@ -58,8 +58,6 @@ def maximo_ternario(a: float, b: float) -> float:
     Referencia: https://docs.python.org/3/reference/expressions.html#conditional-expressions # noqa: E501
     """
 
-    a = float(a)
-    b = float(b)
     maximo_ternario = a if a > b else b
     return maximo_ternario
 
@@ -69,7 +67,5 @@ assert maximo_ternario(10, 5) == 10
 assert maximo_ternario(9, 18) == 18
 print("MAXIMO TERNARIO A: ", maximo_ternario(10, 5))
 print("MAXIMO TERNARIO B: ", maximo_ternario(9, 18))
-print()
-
 
 # NO MODIFICAR - FIN
